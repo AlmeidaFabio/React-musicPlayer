@@ -1,0 +1,88 @@
+.player {
+    flex: 2;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 30px;
+  }
+  
+  .cover {
+    width: 80%;
+    height: 300px;
+  }
+  
+  .cover img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  .infos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .artist {
+    margin-top: 10px;
+    color: rgba(125, 124, 124, 0.83);
+  }
+  
+  .buttons {
+    width: 80%;
+    height: 100px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .previous,
+  .next {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 3px 3px #d1cece;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    cursor: pointer;
+  }
+  
+  .play-pause {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 5px 3px #d1cece;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    cursor: pointer;
+  }
+  
+  .progress-bar {
+    width: 85%;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 1px 3px 3px 3px #d1cece;
+    display: flex;
+    align-items: center;
+  }
+  
+  .progress {
+    width: 55%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: rgb(202, 78, 78);
+  }
+  
+  .timer {
+    font-size: 1.5rem;
+  }
+  
